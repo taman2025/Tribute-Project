@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    border:15px solid rgb(36, 36, 36);
+}
+img{
+    width: 300px;
+    height: 430px;
+    
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(42, 42, 42, 0.4);
+}
+img.last{
+    width: 350px;
+    height: 450px;
+    border-radius: 0;
+    margin-left: 40%;
+    padding: 2%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 15px 150px;
+    text-decoration:underline;
+    font-size: 70px;
+}
+.quote {
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    margin: 10px;
+}
+   
+.signature {
+    font-size: 20px;
+    text-align: right;
+    color: #333;
+    margin-right: 200px;
+}
+ 
+.content2{
+    color: #333;
+    text-align: center;
+}
+
+.content3{
+     font-size: 20px;
+    color: #292929;
+    padding: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    margin-top: 5%;
+}
+.first
+{
+    display: flex;
+
+}
+.second{
+    display: flex;
+    gap: 55px;
+    text-align: justify;
+    margin-top: 5%;
+}
+.third{
+    margin:50px;
+    text-align: justify;
+    margin-top: 10%;
+}
+footer {
+    text-align:center;
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+}
